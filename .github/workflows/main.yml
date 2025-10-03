@@ -27,7 +27,7 @@ jobs:
           key: cache-953ad12
 
       - name: prime-cache-953ad12
-        run: echo "Cache result: ${{ steps.cache-deps.outputs.cache-hit }}"
+        run: echo "Cache ok"
 
       - name: Install dependencies
         run: |
